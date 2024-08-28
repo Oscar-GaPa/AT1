@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooscles", "Mooscles\Mooscles.csproj", "{F96E0F38-B1A5-4CC8-B53C-6D3A1811E7CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96E0F38-B1A5-4CC8-B53C-6D3A1811E7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96E0F38-B1A5-4CC8-B53C-6D3A1811E7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96E0F38-B1A5-4CC8-B53C-6D3A1811E7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96E0F38-B1A5-4CC8-B53C-6D3A1811E7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EDCC3AD-E47B-46EB-8C87-C866C8290CD6}
+	EndGlobalSection
+EndGlobal
