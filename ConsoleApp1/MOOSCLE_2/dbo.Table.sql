@@ -1,4 +1,0 @@
-﻿CREATE TABLE [dbo].[Table]
-(
-	[Cus_Id] INT NOT NULL PRIMARY KEY
-)
