@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employees_Management_System.BLL
+namespace Mooscles_Management_System.BLL
 {
     internal class Customer_Manager
     {

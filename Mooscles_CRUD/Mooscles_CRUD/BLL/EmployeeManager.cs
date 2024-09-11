@@ -1,12 +1,12 @@
-﻿using Employees_Management_System.DAL;
-using Employees_Management_System.Models;
+﻿using Mooscles_Management_System.DAL;
+using Mooscles_Management_System.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employees_Management_System.BLL
+namespace Mooscles_Management_System.BLL
 {
     public class EmployeeManager
     {

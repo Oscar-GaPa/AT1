@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employees_Management_System.Models
+namespace Mooscles_Management_System.Models
 {
     public class Employee
     {

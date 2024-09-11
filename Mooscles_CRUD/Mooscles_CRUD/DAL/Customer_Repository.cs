@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employees_Management_System.DAL
+namespace Mooscles_Management_System.DAL
 {
     internal class Customer_Repository
     {

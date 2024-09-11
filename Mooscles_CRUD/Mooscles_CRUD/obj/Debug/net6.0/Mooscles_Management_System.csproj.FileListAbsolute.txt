@@ -1,0 +1,6 @@
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.csproj.AssemblyReference.cache
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.AssemblyInfoInputs.cache
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.AssemblyInfo.cs
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.sourcelink.json

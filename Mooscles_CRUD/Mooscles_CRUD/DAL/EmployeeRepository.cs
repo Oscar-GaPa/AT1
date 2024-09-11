@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Employees_Management_System.DAL
+namespace Mooscles_Management_System.DAL
 {
     public class EmployeeRepository
     {

@@ -1,10 +1,10 @@
-﻿using Employees_Management_System.BLL;
-using Employees_Management_System.PL;
+﻿using Mooscles_Management_System.BLL;
+using Mooscles_Management_System.PL;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace Employees_Management_System
+namespace Mooscles_Management_System
 {
     class Program
     {

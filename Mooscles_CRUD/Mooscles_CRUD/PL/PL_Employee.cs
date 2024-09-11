@@ -1,11 +1,11 @@
-﻿using Employees_Management_System.BLL;
+﻿using Mooscles_Management_System.BLL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Employees_Management_System.PL
+namespace Mooscles_Management_System.PL
 {
     public class PL_Employee
     {
@@ -49,6 +49,6 @@ namespace Employees_Management_System.PL
                 }
             }
         
-    }
+        }
     }
 }
