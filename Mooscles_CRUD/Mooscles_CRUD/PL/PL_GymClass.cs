@@ -18,10 +18,10 @@ namespace Mooscles_Management_System.PL
             while (!exit)
             {
                 Console.WriteLine("Choose an option:");
-                Console.WriteLine("1. Create Employee");
-                Console.WriteLine("2. Read Employees");
-                Console.WriteLine("3. Update Employee");
-                Console.WriteLine("4. Delete Employee");
+                Console.WriteLine("1. Create Gym_Class");
+                Console.WriteLine("2. Read Gym_Class");
+                Console.WriteLine("3. Update Gym_Class");
+                Console.WriteLine("4. Delete Gym_Class");
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("Enter your choice: ");
                 Console.WriteLine();
