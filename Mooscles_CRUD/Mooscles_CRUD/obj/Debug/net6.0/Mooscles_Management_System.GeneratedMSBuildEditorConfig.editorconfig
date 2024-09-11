@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mooscles_Management_System
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\oscar\OneDrive\Documentos\Holmesglen\Web Development\Git Repos\AT1\AT1\Mooscles_CRUD\Mooscles_CRUD\
+=======
+build_property.ProjectDir = C:\Users\oscar\OneDrive\Desktop\AT1\Mooscles_CRUD\Mooscles_CRUD\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

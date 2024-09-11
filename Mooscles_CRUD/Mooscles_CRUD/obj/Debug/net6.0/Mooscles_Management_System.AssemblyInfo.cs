@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a227f70e9f077ff2c688f4042687120e3a389db")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec6d11b0e740885073ca12f46392d7e39a73748e")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

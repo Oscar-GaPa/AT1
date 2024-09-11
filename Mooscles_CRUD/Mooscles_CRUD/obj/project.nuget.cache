@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "MOnRAH9/1s8=",
   "success": true,
   "projectFilePath": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+=======
+  "dgSpecHash": "0xeCEtICFJs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\oscar\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\oscar\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

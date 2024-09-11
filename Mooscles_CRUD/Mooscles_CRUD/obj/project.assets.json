@@ -473,11 +473,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
       "projectName": "Mooscles_Management_System",
       "projectPath": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
       "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+      "projectName": "Mooscles_Management_System",
+      "projectPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+      "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
