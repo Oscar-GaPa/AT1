@@ -1,4 +1,4 @@
-﻿using Employees_Management_System.BLL;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Employees_Management_System.PL
 {
-    public class PL_Employee
+    public class PL_GymClass
     {
         static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Employees_DB;Integrated Security=True;";
         static EmployeeManager employeeManager = new EmployeeManager(connectionString);
