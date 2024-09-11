@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {}
+    "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+    "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+        "projectUniqueName": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
         "projectName": "Mooscles_Management_System",
-        "projectPath": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
-        "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oscar\\OneDrive\\Documentos\\Holmesglen\\Web Development\\Git Repos\\AT1\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\obj\\",
+        "projectPath": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+        "packagesPath": "C:\\Users\\tawan\\.nuget\\packages\\",
+        "outputPath": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

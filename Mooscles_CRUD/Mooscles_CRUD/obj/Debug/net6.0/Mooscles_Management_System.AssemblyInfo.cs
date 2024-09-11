@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35c030b9d834aa9042dca9b4794cde6986888c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b17d5d06d1bd6252ce76149b61b4dc1f97b6fb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mooscles_Management_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
