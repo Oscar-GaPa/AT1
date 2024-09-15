@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Customer_Management_System.DAL
+namespace Mooscles_Management_System.DAL
 {
-    public class CustomerRepository
+    public class Customer_Repository
     {
         private readonly string connectionString;
 
-        public CustomerRepository(string connectionString)
+        public Customer_Repository(string connectionString)
         {
             this.connectionString = connectionString;
         }
@@ -19,18 +19,18 @@ namespace Customer_Management_System.DAL
         // the following is CreateCustomer() method moved to here:
         public void CreateCustomer()
         {
-            Console.WriteLine("Enter employee details:");
-            Console.Write("Customer_Name: ");
+            Console.WriteLine("Enter customer details:");
+            Console.Write("Customer name: ");
             string customer_name = Console.ReadLine();
             Console.Write("Address: ");
             string address = Console.ReadLine();
-            Console.Write("Phone_NO: ");
-            int phone_no = Console.ReadLine();
-            Console.Write("DOB: ");
+            Console.Write("Phone number: ");
+            int phone_no = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Date of birth: ");
             string dob = Console.ReadLine();
-            Console.Write("Starting_Date: ");
+            Console.Write("Starting date: ");
             string starting_date = Console.ReadLine();
-            Console.Write("Ending_Date: ");
+            Console.Write("Ending date: ");
             string ending_date = Console.ReadLine();
 
 
@@ -55,7 +55,7 @@ namespace Customer_Management_System.DAL
         }
 
 
-        public void ReadCustomer()
+        public void ReadCustomers()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -78,21 +78,21 @@ namespace Customer_Management_System.DAL
 
         public void UpdateCustomer()
         {
-            Console.Write("Enter the Id of the customer to update: ");
+            Console.Write("Enter the ID of the customer to update: ");
             int id = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter new customer details:");
-            Console.Write("Customer_Name: ");
+            Console.Write("Customer name: ");
             string customer_name = Console.ReadLine();
             Console.Write("Address: ");
             string address = Console.ReadLine();
-            Console.Write("Phone_NO: ");
-            int phone_no = Console.ReadLine();
-            Console.Write("DOB: ");
+            Console.Write("Phone number: ");
+            int phone_no = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Date of birth: ");
             string dob = Console.ReadLine();
-            Console.Write("Starting_Date: ");
+            Console.Write("Starting date: ");
             string starting_date = Console.ReadLine();
-            Console.Write("Ending_Date: ");
+            Console.Write("Ending date: ");
             string ending_date = Console.ReadLine();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -120,7 +120,7 @@ namespace Customer_Management_System.DAL
 
         public void DeleteCustomer()
         {
-            Console.Write("Enter the Id of the customer to delete: ");
+            Console.Write("Enter the ID of the customer to delete: ");
             int id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -141,3 +141,4 @@ namespace Customer_Management_System.DAL
         }
 
     }
+}

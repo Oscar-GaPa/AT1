@@ -1,4 +1,4 @@
-using Mooscles_Management_System.BLL;﻿
+using Mooslces_Management_System.BLL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.PL
 {
-    public class PL_GymClass
+    internal class PL_Employee
     {
         static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Employees_DB;Integrated Security=True;";
-        static EmployeeManager employeeManager = new EmployeeManager(connectionString);
+        static Employee_Manager employee_Manager = new Employee_Manager(connectionString);
         // Create Run() method, then move from Main() method the CLI to here
         public void Run()
         {
@@ -29,16 +29,16 @@ namespace Mooscles_Management_System.PL
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        employeeManager.CreateEmployee();
+                        employee_Manager.CreateEmployee();
                         break;
                     case "2":
-                        employeeManager.ReadEmployees();
+                        employee_Manager.ReadEmployees();
                         break;
                     case "3":
-                        employeeManager.UpdateEmployee();
+                        employee_Manager.UpdateEmployee();
                         break;
                     case "4":
-                        employeeManager.DeleteEmployee();
+                        employee_Manager.DeleteEmployee();
                         break;
                     case "5":
                         exit = true;
@@ -49,6 +49,6 @@ namespace Mooscles_Management_System.PL
                 }
             }
         
-    }
+        }
     }
 }

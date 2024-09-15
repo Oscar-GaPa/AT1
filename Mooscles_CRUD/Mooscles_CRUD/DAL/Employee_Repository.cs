@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Employees_Management_System.DAL
+namespace Mooscles_Management_System.DAL
 {
-    public class EmployeeRepository
+    public class Employee_Repository
     {
         private readonly string connectionString;
 
-        public EmployeeRepository(string connectionString)
+        public Employee_Repository(string connectionString)
         {
             this.connectionString = connectionString;
         }

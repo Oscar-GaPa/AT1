@@ -1,5 +1,4 @@
-using GymClass_Management_System.DAL;
-using GymClass_Management_System.Models;
+using Mooscles_Management_System.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.BLL
 {
-    public class GymClassManager
+    public class GymClass_Manager
     {
-        private readonly GymClassRepository gymclassRepository;
+        private readonly GymClass_Repository gymclassRepository;
 
-        public GymClassManager(string connectionString)
+        public GymClass_Manager(string connectionString)
         {
-            gymclassRepository = new gymclassRepository(connectionString);
+            gymclassRepository = new GymClass_Repository(connectionString);
         }
 
         public void CreateGymClass()
@@ -23,9 +22,9 @@ namespace Mooscles_Management_System.BLL
 
         }
 
-        public void ReadGymClass()
+        public void ReadGymClasses()
         {
-            gymclassRepository.ReadGymClass();
+            gymclassRepository.ReadGymClasses();
 
         }
 

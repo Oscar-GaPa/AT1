@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +20,13 @@
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,12 +35,57 @@
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\pl\\pl_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\pl\\pl_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\pl\\pl_gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\gymclass_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\gymclass_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\employee_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\employee_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\gymclass_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\gymclass_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,17 +104,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
+=======
+              "Title": "PL_Customer.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
+              "RelativeDocumentMoniker": "PL\\PL_Customer.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
+              "RelativeToolTip": "PL\\PL_Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:48:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "Customer_Repository.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
               "RelativeDocumentMoniker": "DAL\\Customer_Repository.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
               "RelativeToolTip": "DAL\\Customer_Repository.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAHYAAAAAAAAAAAAkwB4AAAAtAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwI8AAAABAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T03:48:16.854Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "PL_GymClass.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_GymClass.cs",
@@ -92,29 +162,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:43:25.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PL_Employee.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Employee.cs",
               "RelativeDocumentMoniker": "PL\\PL_Employee.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Employee.cs",
               "RelativeToolTip": "PL\\PL_Employee.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T13:59:39.071Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "EmployeeManager.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\EmployeeManager.cs",
@@ -124,30 +198,75 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T13:20:20.205Z"
+=======
+              "DocumentIndex": 3,
+              "Title": "Customer_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\Customer_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeToolTip": "BLL\\Customer_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:47:58.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PL_GymClass.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_GymClass.cs",
+              "RelativeDocumentMoniker": "PL\\PL_GymClass.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_GymClass.cs",
+              "RelativeToolTip": "PL\\PL_GymClass.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T03:50:57.206Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< Updated upstream
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "DAL\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeRepository.cs",
               "RelativeToolTip": "DAL\\EmployeeRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+=======
+              "Title": "GymClass.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\GymClass.cs",
+              "RelativeDocumentMoniker": "Models\\GymClass.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\GymClass.cs",
+              "RelativeToolTip": "Models\\GymClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:22:14.106Z"
+              "WhenOpened": "2024-09-15T09:18:53.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< Updated upstream
               "Title": "PL_Customer.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
               "RelativeDocumentMoniker": "PL\\PL_Customer.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
               "RelativeToolTip": "PL\\PL_Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T03:48:23.65Z"
+              "WhenOpened": "2024-09-15T09:10:54.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -157,9 +276,62 @@
               "RelativeDocumentMoniker": "Models\\Employee.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Employee.cs",
               "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:21:40.034Z"
+              "WhenOpened": "2024-09-01T13:21:40.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Employee_Repository.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
+              "RelativeToolTip": "DAL\\Employee_Repository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:09:44.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GymClass_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\GymClass_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\GymClass_Repository.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\GymClass_Repository.cs",
+              "RelativeToolTip": "DAL\\GymClass_Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:53:51.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Employee_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\Employee_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Employee_Manager.cs",
+              "RelativeToolTip": "BLL\\Employee_Manager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T08:00:20.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GymClass_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\GymClass_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\GymClass_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\GymClass_Manager.cs",
+              "RelativeToolTip": "BLL\\GymClass_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:51:43.02Z",
+              "EditorCaption": ""
             }
           ]
         }

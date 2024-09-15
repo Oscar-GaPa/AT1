@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mooscles_Management_System.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.BLL
 {
-    internal class Customer_Manager
+    public class Customer_Manager
     {
-        public class Customer_Manager
-        {
-            private readonly CustomerRepository CustomerRepository;
+            private readonly Customer_Repository customerRepository;
 
             public Customer_Manager(string connectionString)
             {
-                customerRepository = new CustomerRepository(connectionString);
+                customerRepository = new Customer_Repository(connectionString);
             }
 
             public void CreateCustomer()
@@ -23,9 +22,9 @@ namespace Mooscles_Management_System.BLL
 
             }
 
-            public void ReadCustomer()
+            public void ReadCustomers()
             {
-                customerRepository.ReadCustomer();
+                customerRepository.ReadCustomers();
 
             }
 
@@ -40,7 +39,6 @@ namespace Mooscles_Management_System.BLL
                 customerRepository.DeleteCustomer();
 
             }
-        }
     }
-
 }
+

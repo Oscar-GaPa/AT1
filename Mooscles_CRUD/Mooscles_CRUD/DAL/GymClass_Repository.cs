@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.DAL
 {
-    public class GymClassRepository
+    public class GymClass_Repository
     {
         private readonly string connectionString;
 
-        public GymClassRepository(string connectionString)
+        public GymClass_Repository(string connectionString)
         {
             this.connectionString = connectionString;
         }
