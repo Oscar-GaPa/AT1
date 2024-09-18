@@ -25,13 +25,13 @@ namespace Mooscles_Management_System.DAL
             Console.Write("Position: ");
             string position = Console.ReadLine();
             Console.Write("Salary: ");
-            decimal salary = Convert.ToDecimal(Console.ReadLine());
+            int salary = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string insertQuery = "INSERT INTO Employees (Name, Position, Salary) VALUES (@Name, @Position, @Salary)";
+                string insertQuery = "INSERT INTO Employee (Name, Position, Salary) VALUES (@Name, @Position, @Salary)";
                 using (SqlCommand command = new SqlCommand(insertQuery, connection))
                 {
                     command.Parameters.AddWithValue("@Name", name);
@@ -51,7 +51,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Id, Name, Position, Salary FROM Employees";
+                string selectQuery = "SELECT Employee_ID, Name, Position, Salary FROM Employee";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -59,7 +59,7 @@ namespace Mooscles_Management_System.DAL
                         Console.WriteLine("Employees:");
                         while (reader.Read())
                         {
-                            Console.WriteLine($"Id: {reader.GetInt32(0)}, Name: {reader.GetString(1)}, Position: {reader.GetString(2)}, Salary: {reader.GetDecimal(3)}");
+                            Console.WriteLine($"Employee_ID: {reader.GetInt32(0)}, Name: {reader.GetString(1)}, Position: {reader.GetString(2)}, Salary: {reader.GetInt32(3)}");
                         }
                     }
                 }
@@ -68,8 +68,8 @@ namespace Mooscles_Management_System.DAL
 
         public void UpdateEmployee()
         {
-            Console.Write("Enter the Id of the employee to update: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Employee_ID of the employee to update: ");
+            int employee_id = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter new employee details:");
             Console.Write("Name: ");
@@ -83,11 +83,11 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string updateQuery = "UPDATE Employees SET Name = @Name, Position = @Position, Salary = @Salary WHERE Id = @Id";
+                string updateQuery = "UPDATE Employee SET Name = @Name, Position = @Position, Salary = @Salary WHERE Employee_ID = @Employee_ID";
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Id", id);
                     command.Parameters.AddWithValue("@Name", name);
+                    command.Parameters.AddWithValue("@Employee_ID", employee_id);
                     command.Parameters.AddWithValue("@Position", position);
                     command.Parameters.AddWithValue("@Salary", salary);
                     int rowsAffected = command.ExecuteNonQuery();
@@ -102,16 +102,16 @@ namespace Mooscles_Management_System.DAL
         public void DeleteEmployee()
         {
             Console.Write("Enter the Id of the employee to delete: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            int employee_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string deleteQuery = "DELETE FROM Employees WHERE Id = @Id";
+                string deleteQuery = "DELETE FROM Employee WHERE Employee_ID = @Employee_ID";
                 using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Id", id);
+                    command.Parameters.AddWithValue("@Employee_ID", employee_id);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Employee deleted successfully.");

@@ -8,12 +8,12 @@ namespace Mooscles_Management_System.Models
 {
     public class Customer
     {
-        public string Id { get; set; }
+        public int Customer_ID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public string Phone_NO { get; set; }
+        public int Phone_NO { get; set; }
         public string DOB { get; set; }   
-        public decimal Starting_Date { get; set; }
-        public decimal Ending_Date { get; set; }
+        public string Starting_Date { get; set; }
+        public string Ending_Date { get; set; }
     }
 }

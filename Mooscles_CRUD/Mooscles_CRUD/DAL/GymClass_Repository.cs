@@ -21,22 +21,25 @@ namespace Mooscles_Management_System.DAL
         {
             Console.WriteLine("Enter Gym Class details:");
             Console.Write("Class Name: ");
-            string className = Console.ReadLine();
-            Console.Write("Schedule: ");
-            string schedule = Console.ReadLine();
-            Console.Write("Class Instructor: ");
-            string classInstructor = Console.ReadLine();
+            string gymClass_Name = Console.ReadLine();
+            Console.Write("Teacher: ");
+            int gymClass_Teacher = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Member: ");
+            int gymClass_Member = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Date: ");
+            string gymClass_Date = Console.ReadLine();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string insertQuery = "INSERT INTO GymClasses (ClassName, Schedule, ClassInstructor) VALUES (@ClassName, @Schedule, @ClassInstructor)";
+                string insertQuery = "INSERT INTO GymClass (GymClass_Name, GymClass_Teacher, GymClass_Member, GymClass_Date) VALUES (@GymClass_Name, @GymClass_Teacher, @GymClass_Member, @GymClass_Date)";
                 using (SqlCommand command = new SqlCommand(insertQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@ClassName", className);
-                    command.Parameters.AddWithValue("@Schedule", schedule);
-                    command.Parameters.AddWithValue("@ClassInstructor", classInstructor);
+                    command.Parameters.AddWithValue("@GymClass_Name", gymClass_Name);
+                    command.Parameters.AddWithValue("@GymClass_Teacher", gymClass_Teacher);
+                    command.Parameters.AddWithValue("@GymClass_Member", gymClass_Member);
+                    command.Parameters.AddWithValue("@GymClass_Date", gymClass_Date);
                     command.ExecuteNonQuery();
                 }
 
@@ -51,7 +54,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string selectQuery = "SELECT ClassId, ClassName, Schedule, ClassInstructor FROM GymClasses";
+                string selectQuery = "SELECT GymClass_ID, GymClass_Name, GymClass_Teacher, GymClass_Member, GymClass_Date FROM GymClass";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -59,7 +62,7 @@ namespace Mooscles_Management_System.DAL
                         Console.WriteLine("Gym Classes:");
                         while (reader.Read())
                         {
-                            Console.WriteLine($"ClassId: {reader.GetInt32(0)}, ClassName: {reader.GetString(1)}, Schedule: {reader.GetString(2)}, ClassInstructor: {reader.GetString(3)}");
+                            Console.WriteLine($"GymClass_ID: {reader.GetInt32(0)}, GymClass_Name: {reader.GetString(1)}, GymClass_Teacher: {reader.GetInt32(2)}, GymClass_Member: {reader.GetInt32(3)}, GymClass_Date: {reader.GetString(4)}");
                         }
                     }
                 }
@@ -69,27 +72,30 @@ namespace Mooscles_Management_System.DAL
         public void UpdateGymClass()
         {
             Console.Write("Enter the Id of the class to update: ");
-            int classId = Convert.ToInt32(Console.ReadLine());
+            int gymClass_ID = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter new class details:");
             Console.Write("Class Name: ");
-            string className = Console.ReadLine();
-            Console.Write("Schedule: ");
-            string schedule = Console.ReadLine();
-            Console.Write("Instructor: ");
-            string classInstructor = Console.ReadLine();
+            string gymClass_Name = Console.ReadLine();
+            Console.Write("Class Teacher: ");
+            int gymClass_Teacher = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Class Member: ");
+            int gymClass_Member = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Class Date: ");
+            string gymClass_Date = Console.ReadLine();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string updateQuery = "UPDATE GymClasses SET className = @ClassName, schedule = @Schedule, classInstructor = @ClassInstructor WHERE classId = @ClassId";
+                string updateQuery = "UPDATE GymClass SET GymClass_Name = @GymClass_Name, GymClass_Teacher = @GymClass_Teacher, GymClass_Member = @GymClass_Member, GymClass_Date = @GymClass_Date WHERE GymClass_ID = @GymClass_ID";
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@ClassId", classId);
-                    command.Parameters.AddWithValue("@ClassName", className);
-                    command.Parameters.AddWithValue("@Schedule", schedule);
-                    command.Parameters.AddWithValue("@ClassInstructor", classInstructor);
+                    command.Parameters.AddWithValue("@GymClass_ID", gymClass_ID);
+                    command.Parameters.AddWithValue("@GymClass_Name", gymClass_Name);
+                    command.Parameters.AddWithValue("@GymClass_Teacher", gymClass_Teacher);
+                    command.Parameters.AddWithValue("@GymClass_Member", gymClass_Member);
+                    command.Parameters.AddWithValue("@GymClass_Date", gymClass_Date);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Employee updated successfully.");
@@ -101,17 +107,17 @@ namespace Mooscles_Management_System.DAL
 
         public void DeleteGymClass()
         {
-            Console.Write("Enter the Id of the gym class to delete: ");
-            int classId = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Gym Class ID of the gym class to delete: ");
+            int gymClass_ID = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string deleteQuery = "DELETE FROM GymClasses WHERE classId = @ClassId";
+                string deleteQuery = "DELETE FROM GymClass WHERE gymClass_ID = @GymClass_ID";
                 using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@ClassId", classId);
+                    command.Parameters.AddWithValue("@GymClass_ID", gymClass_ID);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Gym Class deleted successfully.");

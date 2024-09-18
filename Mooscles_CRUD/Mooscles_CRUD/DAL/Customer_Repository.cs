@@ -61,7 +61,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Id, Customer_Name, Address, Phone_NO, DOB, Starting_Date, Ending_Date";
+                string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date, Ending_Date FROM Customer";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -69,7 +69,7 @@ namespace Mooscles_Management_System.DAL
                         Console.WriteLine("Customer:");
                         while (reader.Read())
                         {
-                            Console.WriteLine($"Id: {reader.GetInt32(0)}, Customer_Name: {reader.GetString(1)}, Address: {reader.GetString(2)}, Phone_NO: {reader.GetString(3)}, DOB: {reader.GetString(4)}, Starting_Date: {reader.GetString(5)}, Ending_Date: {reader.GetString(6)}");
+                            Console.WriteLine($"Customer_ID: {reader.GetInt32(0)}, Customer_Name: {reader.GetString(1)}, Address: {reader.GetString(2)}, Phone_NO: {reader.GetInt32(3)}, DOB: {reader.GetString(4)}, Starting_Date: {reader.GetString(5)}, Ending_Date: {reader.GetString(6)}");
                         }
                     }
                 }
@@ -78,8 +78,8 @@ namespace Mooscles_Management_System.DAL
 
         public void UpdateCustomer()
         {
-            Console.Write("Enter the ID of the customer to update: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the Customer_ID of the customer to update: ");
+            int customer_id = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter new customer details:");
             Console.Write("Customer name: ");
@@ -99,10 +99,10 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string updateQuery = "UPDATE Customer SET Customer_Name = @Customer_Name, Address = @Address, Phone_NO = @Phone_NO, DOB = @DOB, Starting_Date = @Starting_Date, Ending_Date = @Ending_Date WHERE Id = @Id";
+                string updateQuery = "UPDATE Customer SET Customer_Name = @Customer_Name, Address = @Address, Phone_NO = @Phone_NO, DOB = @DOB, Starting_Date = @Starting_Date, Ending_Date = @Ending_Date WHERE Customer_ID = @Customer_ID";
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Id", id);
+                    command.Parameters.AddWithValue("@Customer_ID", customer_id);
                     command.Parameters.AddWithValue("@Customer_Name", customer_name);
                     command.Parameters.AddWithValue("@Address", address);
                     command.Parameters.AddWithValue("@Phone_NO", phone_no);
@@ -121,16 +121,16 @@ namespace Mooscles_Management_System.DAL
         public void DeleteCustomer()
         {
             Console.Write("Enter the ID of the customer to delete: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            int customer_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string deleteQuery = "DELETE FROM Customer WHERE Id = @Id";
+                string deleteQuery = "DELETE FROM Customer WHERE Customer_ID = @Customer_ID";
                 using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Id", id);
+                    command.Parameters.AddWithValue("@Customer_ID", customer_id);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Customer deleted successfully.");

@@ -9,7 +9,7 @@ namespace Mooscles_Management_System.PL
 {
     internal class PL_GymClass
     {
-        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Employees_DB;Integrated Security=True;";
+        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""Mooscles Database V1"";Integrated Security=True;";
         static GymClass_Manager gymClass_Manager = new GymClass_Manager(connectionString);
         // Create Run() method, then move from Main() method the CLI to here
         public void Run()

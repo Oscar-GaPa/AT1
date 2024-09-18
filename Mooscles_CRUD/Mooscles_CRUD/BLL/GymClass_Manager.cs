@@ -9,34 +9,34 @@ namespace Mooscles_Management_System.BLL
 {
     public class GymClass_Manager
     {
-        private readonly GymClass_Repository gymclassRepository;
+        private readonly GymClass_Repository gymClassRepository;
 
         public GymClass_Manager(string connectionString)
         {
-            gymclassRepository = new GymClass_Repository(connectionString);
+            gymClassRepository = new GymClass_Repository(connectionString);
         }
 
         public void CreateGymClass()
         {
-            gymclassRepository.CreateGymClass();
+            gymClassRepository.CreateGymClass();
 
         }
 
         public void ReadGymClasses()
         {
-            gymclassRepository.ReadGymClasses();
+            gymClassRepository.ReadGymClasses();
 
         }
 
         public void UpdateGymClass()
         {
-            gymclassRepository.UpdateGymClass();
+            gymClassRepository.UpdateGymClass();
 
         }
 
         public void DeleteGymClass()
         {
-            gymclassRepository.DeleteGymClass();
+            gymClassRepository.DeleteGymClass();
 
         }
     }

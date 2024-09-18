@@ -8,9 +8,9 @@ namespace Mooscles_Management_System.Models
 {
     public class Employee
     {
-        public string Id { get; set; }
+        public int Employee_ID { get; set; }
         public string Name { get; set; }
         public string Position { get; set; }
-        public decimal Salary { get; set; } 
+        public int Salary { get; set; } 
     }
 }
