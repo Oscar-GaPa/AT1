@@ -1,0 +1,35 @@
+CREATE TABLE [dbo].[Customer] (
+    [Customer_ID]   INT            IDENTITY (1, 1) NOT NULL,
+    [Customer_Name] NVARCHAR (50)  NULL,
+    [Address]       NVARCHAR (100) NULL,
+    [Phone_NO]      INT            NULL,
+    [DOB]           NVARCHAR (50)  NULL,
+    [Starting_Date] NVARCHAR (50)  NULL,
+    [GymClass]      INT            NULL,
+    PRIMARY KEY CLUSTERED ([Customer_ID] ASC),
+    CONSTRAINT [FK_gymclassC] FOREIGN KEY ([GymClass]) REFERENCES [dbo].[GymClass] ([GymClass_ID])
+);
+
+CREATE TABLE [dbo].[Employee] (
+    [Employee_ID] INT           IDENTITY (108000, 1) NOT NULL,
+    [Name]        NVARCHAR (50) NULL,
+    [Position]    NVARCHAR (50) NULL,
+    [Salary]      INT           NULL,
+    [GymClass]    INT           NULL,
+    PRIMARY KEY CLUSTERED ([Employee_ID] ASC),
+    CONSTRAINT [FK_gymclassE] FOREIGN KEY ([GymClass]) REFERENCES [dbo].[GymClass] ([GymClass_ID])
+);
+
+CREATE TABLE [dbo].[GymClass] (
+    [GymClass_ID]      INT           IDENTITY (1850001, 1) NOT NULL,
+    [GymClass_Name]    NVARCHAR (50) NULL,
+    [GymClass_Teacher] INT           NULL,
+    [GymClass_Member]  INT           NULL,
+    [GymClass_Date]    NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([GymClass_ID] ASC),
+    CONSTRAINT [FK_GymClass_Teacher] FOREIGN KEY ([GymClass_Teacher]) REFERENCES [dbo].[Employee] ([Employee_ID]),
+    CONSTRAINT [FK_GymClass_Member] FOREIGN KEY ([GymClass_Member]) REFERENCES [dbo].[Customer] ([Customer_ID])
+);
+
+
+
