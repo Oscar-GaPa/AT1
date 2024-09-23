@@ -9,8 +9,8 @@ namespace Mooscles_Management_System.PL
 {
     internal class PL_EmployeeSchedule
     {
-        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""Mooscles Database V1"";Integrated Security=True;";
-        static EmployeeSchedule_Manager gymClass_Manager = new EmployeeSchedule_Manager(connectionString);
+        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MoosclesDB;Integrated Security=True;";
+        static EmployeeSchedule_Manager employeeSchedule_Manager = new EmployeeSchedule_Manager(connectionString);
         // Create Run() method, then move from Main() method the CLI to here
         public void Run()
         {
@@ -29,16 +29,16 @@ namespace Mooscles_Management_System.PL
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        gymClass_Manager.CreateEmployeeSchedule();
+                        employeeSchedule_Manager.CreateEmployeeSchedule();
                         break;
                     case "2":
-                        gymClass_Manager.ReadEmployeeSchedule();
+                        employeeSchedule_Manager.ReadEmployeeSchedules();
                         break;
                     case "3":
-                        gymClass_Manager.UpdateEmployeeSchedule();
+                        employeeSchedule_Manager.UpdateEmployeeSchedule();
                         break;
                     case "4":
-                        gymClass_Manager.DeleteEmployeeSchedule();
+                        employeeSchedule_Manager.DeleteEmployeeSchedule();
                         break;
                     case "5":
                         exit = true;

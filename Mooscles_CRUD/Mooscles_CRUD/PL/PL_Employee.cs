@@ -9,7 +9,7 @@ namespace Mooscles_Management_System.PL
 {
     internal class PL_Employee
     {
-        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""Mooscles Database V1"";Integrated Security=True;";
+        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MoosclesDB;Integrated Security=True;";
         static Employee_Manager employee_Manager = new Employee_Manager(connectionString);
         // Create Run() method, then move from Main() method the CLI to here
         public void Run()

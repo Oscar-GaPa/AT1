@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeSchedule_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:58:50.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

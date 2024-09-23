@@ -20,9 +20,9 @@ namespace Mooscles_Management_System.DAL
         public void CreateEmployeeSchedule()
         {
             Console.WriteLine("Enter Employee Schedule:");
-            Console.Write("Date and Employee_ID: ");
+            Console.Write("Date: ");
             int employee_schedule = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Employee_ID: ");
+            Console.Write("Employee ID: ");
             int employee_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -42,13 +42,13 @@ namespace Mooscles_Management_System.DAL
         }
 
 
-        public void ReadEmployeeSchedule()
+        public void ReadEmployeeSchedules()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Employee_Schedule, Employee_ID";
+                string selectQuery = "SELECT Employee_Schedule, Employee_ID FROM EmployeeSchedule";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -65,7 +65,7 @@ namespace Mooscles_Management_System.DAL
 
         public void UpdateEmployeeSchedule()
         {
-            Console.Write("Enter the date and Employee_ID: ");
+            Console.Write("Enter the date: ");
             int employee_schedule = Convert.ToInt32(Console.ReadLine());
             Console.Write("Employee_ID: ");
             int employee_id = Convert.ToInt32(Console.ReadLine());
@@ -75,11 +75,11 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string updateQuery = "UPDATE EmployeeSchedule SET Employee_Schedule = @Empolyee_Schedule, Employee_ID = @Employee_ID";
+                string updateQuery = "UPDATE EmployeeSchedule SET Employee_Schedule = @Employee_Schedule, Employee_ID = @Employee_ID";
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Employee_SChedule", employee_schedule);
-                    command.Parameters.AddWithValue("@GymClass_Name", employee_id);
+                    command.Parameters.AddWithValue("@Employee_Schedule", employee_schedule);
+                    command.Parameters.AddWithValue("@Employee_ID", employee_id);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Schedule updated successfully.");
@@ -91,17 +91,18 @@ namespace Mooscles_Management_System.DAL
 
         public void DeleteEmployeeSchedule()
         {
-            Console.Write("Enter the date and Employee_ID to delete: ");
-            int employee_Schedule = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Select the ID of the employee whose Schedule you want to delete. ");
+            Console.Write("Employee ID: ");
+            int employee_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string deleteQuery = "DELETE FROM EmployeeSchedule WHERE Employee_Schedule = @Employee_Schedule";
+                string deleteQuery = "DELETE FROM EmployeeSchedule WHERE Employee_ID = @Employee_ID";
                 using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                 {
-                    command.Parameters.AddWithValue("@Employee_Schedule", employee_Schedule);
+                    command.Parameters.AddWithValue("@Employee_ID", employee_id);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Schedule deleted successfully.");
