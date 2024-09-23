@@ -17,9 +17,9 @@ CREATE TABLE [dbo].[Customer] (
 );
 
 CREATE TABLE [dbo].[EmployeeSchedule] (
-    [Employee_Schedule] INT IDENTITY (1, 1) NOT NULL,
+    [Employee_Schedule] INT NOT NULL,
     [Employee_ID]       INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([Employee_Schedule] ASC),
+    PRIMARY KEY CLUSTERED ([Employee_Schedule], [Employee_ID]),
     CONSTRAINT [FK_Employee_ID] FOREIGN KEY ([Employee_ID]) REFERENCES [dbo].[Employee] ([Employee_ID])
 );
 
