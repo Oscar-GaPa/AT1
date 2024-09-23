@@ -60,7 +60,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date, Membership_Type FROM Customer";
+                string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date FROM Customer";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())

@@ -22,9 +22,9 @@ namespace Mooscles_Management_System.BLL
 
         }
 
-        public void ReadEmployeeSchedule()
+        public void ReadEmployeeSchedules()
         {
-            employeeScheduleRepository.ReadEmployeeSchedule();
+            employeeScheduleRepository.ReadEmployeeSchedules();
 
         }
 
