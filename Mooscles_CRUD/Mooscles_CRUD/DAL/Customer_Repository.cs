@@ -30,15 +30,14 @@ namespace Mooscles_Management_System.DAL
             string dob = Console.ReadLine();
             Console.Write("Starting date: ");
             string starting_date = Console.ReadLine();
-            Console.Write("Ending date: ");
-            string ending_date = Console.ReadLine();
+            
 
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string insertQuery = "INSERT INTO Customer (Customer_Name, Address, Phone_NO, DOB, Starting_Date, Ending_Date) VALUES (@Customer_Name, @Address, @Phone_NO, @DOB, @Starting_Date, @Ending_Date)";
+                string insertQuery = "INSERT INTO Customer (Customer_Name, Address, Phone_NO, DOB, Starting_Date) VALUES (@Customer_Name, @Address, @Phone_NO, @DOB, @Starting_Date)";
                 using (SqlCommand command = new SqlCommand(insertQuery, connection))
                 {
                     command.Parameters.AddWithValue("@Customer_Name", customer_name);
@@ -46,7 +45,7 @@ namespace Mooscles_Management_System.DAL
                     command.Parameters.AddWithValue("@Phone_NO", phone_no);
                     command.Parameters.AddWithValue("@DOB", dob);
                     command.Parameters.AddWithValue("@Starting_Date", starting_date);
-                    command.Parameters.AddWithValue("@Ending_Date", ending_date);
+                   
                     command.ExecuteNonQuery();
                 }
 
@@ -61,7 +60,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date, Ending_Date FROM Customer";
+                string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date, Membership_Type FROM Customer";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -69,7 +68,7 @@ namespace Mooscles_Management_System.DAL
                         Console.WriteLine("Customer:");
                         while (reader.Read())
                         {
-                            Console.WriteLine($"Customer_ID: {reader.GetInt32(0)}, Customer_Name: {reader.GetString(1)}, Address: {reader.GetString(2)}, Phone_NO: {reader.GetInt32(3)}, DOB: {reader.GetString(4)}, Starting_Date: {reader.GetString(5)}, Ending_Date: {reader.GetString(6)}");
+                            Console.WriteLine($"Customer_ID: {reader.GetInt32(0)}, Customer_Name: {reader.GetString(1)}, Address: {reader.GetString(2)}, Phone_NO: {reader.GetInt32(3)}, DOB: {reader.GetString(4)}, Starting_Date: {reader.GetString(5)}");
                         }
                     }
                 }
@@ -92,14 +91,12 @@ namespace Mooscles_Management_System.DAL
             string dob = Console.ReadLine();
             Console.Write("Starting date: ");
             string starting_date = Console.ReadLine();
-            Console.Write("Ending date: ");
-            string ending_date = Console.ReadLine();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
-                string updateQuery = "UPDATE Customer SET Customer_Name = @Customer_Name, Address = @Address, Phone_NO = @Phone_NO, DOB = @DOB, Starting_Date = @Starting_Date, Ending_Date = @Ending_Date WHERE Customer_ID = @Customer_ID";
+                string updateQuery = "UPDATE Customer SET Customer_Name = @Customer_Name, Address = @Address, Phone_NO = @Phone_NO, DOB = @DOB, Starting_Date = @Starting_Date WHERE Customer_ID = @Customer_ID";
                 using (SqlCommand command = new SqlCommand(updateQuery, connection))
                 {
                     command.Parameters.AddWithValue("@Customer_ID", customer_id);
@@ -108,7 +105,6 @@ namespace Mooscles_Management_System.DAL
                     command.Parameters.AddWithValue("@Phone_NO", phone_no);
                     command.Parameters.AddWithValue("@DOB", dob);
                     command.Parameters.AddWithValue("@Starting_Date", starting_date);
-                    command.Parameters.AddWithValue("@Ending_Date", ending_date);
                     int rowsAffected = command.ExecuteNonQuery();
                     if (rowsAffected > 0)
                         Console.WriteLine("Customer updated successfully.");

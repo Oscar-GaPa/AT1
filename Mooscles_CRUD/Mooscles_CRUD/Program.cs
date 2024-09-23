@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
-namespace Employees_Management_System
+namespace Mooscles_Management_System
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace Employees_Management_System
 
             PL_Employee pL_Employee = new PL_Employee();
             PL_Customer pL_Customer = new PL_Customer();
-            PL_GymClass pL_GymClass = new PL_GymClass();
+            PL_EmployeeSchedule pL_EmployeeSchedule = new PL_EmployeeSchedule();
 
 
             Console.WriteLine("Please enter 1 for Employee, 2 for Customer, and 3 for Class:");
@@ -24,7 +24,7 @@ namespace Employees_Management_System
                     Console.WriteLine("Choose an option:");
                     Console.WriteLine("1. Employee");
                     Console.WriteLine("2. Customer");
-                    Console.WriteLine("3. Gym Class");
+                    Console.WriteLine("3. Employee Schedule");
                     Console.WriteLine("4. Exit");
                     Console.WriteLine();
 
@@ -37,7 +37,7 @@ namespace Employees_Management_System
                             pL_Customer.Run();
                             break;
                         case "3":
-                            pL_GymClass.Run();
+                            pL_EmployeeSchedule.Run();
                             break;
                         case "4":
                             exit = true;

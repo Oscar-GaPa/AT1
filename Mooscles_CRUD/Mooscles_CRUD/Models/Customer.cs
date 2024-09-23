@@ -14,6 +14,6 @@ namespace Mooscles_Management_System.Models
         public int Phone_NO { get; set; }
         public string DOB { get; set; }   
         public string Starting_Date { get; set; }
-        public string Ending_Date { get; set; }
+       
     }
 }

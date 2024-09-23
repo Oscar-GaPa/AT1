@@ -3,22 +3,8 @@
   "WorkspaceRootPath": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|d:\\mooscles crud\\mooscles_crud\\mooscles_crud\\dal\\gymclass_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\gymclass_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mooscles_Database_V1/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|d:\\mooscles crud\\mooscles_crud\\mooscles_crud\\dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mooscles_Database_V1/True/SqlTable/dbo.Employee.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|d:\\mooscles crud\\mooscles_crud\\mooscles_crud\\models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|d:\\mooscles crud\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,61 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Customer [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mooscles_Database_V1/True/SqlTable/dbo.Customer.sql",
-              "ToolTip": "dbo.Customer [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-18T06:26:25.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee_Repository.cs",
-              "DocumentMoniker": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\Employee_Repository.cs",
-              "ToolTip": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
-              "RelativeToolTip": "DAL\\Employee_Repository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:22:05.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GymClass_Repository.cs",
-              "DocumentMoniker": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\GymClass_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\GymClass_Repository.cs",
-              "ToolTip": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\GymClass_Repository.cs*",
-              "RelativeToolTip": "DAL\\GymClass_Repository.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHMAAAAAAAAAAAAAAA==",
+              "Title": "EmployeeSchedule_Repository.cs",
+              "DocumentMoniker": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
+              "ToolTip": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:43:45.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Employee [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Mooscles_Database_V1/True/SqlTable/dbo.Employee.sql",
-              "ToolTip": "dbo.Employee [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-18T06:13:00.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GymClass.cs",
-              "DocumentMoniker": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\GymClass.cs",
-              "RelativeDocumentMoniker": "Models\\GymClass.cs",
-              "ToolTip": "D:\\Mooscles CRUD\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\GymClass.cs",
-              "RelativeToolTip": "Models\\GymClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:08:33.235Z",
+              "WhenOpened": "2024-09-23T07:39:42.457Z",
               "EditorCaption": ""
             }
           ]

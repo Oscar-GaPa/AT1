@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.PL
 {
-    internal class PL_GymClass
+    internal class PL_EmployeeSchedule
     {
         static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=""Mooscles Database V1"";Integrated Security=True;";
-        static GymClass_Manager gymClass_Manager = new GymClass_Manager(connectionString);
+        static EmployeeSchedule_Manager gymClass_Manager = new EmployeeSchedule_Manager(connectionString);
         // Create Run() method, then move from Main() method the CLI to here
         public void Run()
         {
@@ -18,10 +18,10 @@ namespace Mooscles_Management_System.PL
             while (!exit)
             {
                 Console.WriteLine("Choose an option:");
-                Console.WriteLine("1. Create Gym Class");
-                Console.WriteLine("2. Read Gym Class");
-                Console.WriteLine("3. Update Gym Class");
-                Console.WriteLine("4. Delete Gym Class");
+                Console.WriteLine("1. Create Employee Schedule");
+                Console.WriteLine("2. Read Employee Schedule");
+                Console.WriteLine("3. Update Employee Schedule");
+                Console.WriteLine("4. Delete Employee Schedule");
                 Console.WriteLine("5. Exit");
                 Console.WriteLine("Enter your choice: ");
                 Console.WriteLine();
@@ -29,16 +29,16 @@ namespace Mooscles_Management_System.PL
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        gymClass_Manager.CreateGymClass();
+                        gymClass_Manager.CreateEmployeeSchedule();
                         break;
                     case "2":
-                        gymClass_Manager.ReadGymClasses();
+                        gymClass_Manager.ReadEmployeeSchedule();
                         break;
                     case "3":
-                        gymClass_Manager.UpdateGymClass();
+                        gymClass_Manager.UpdateEmployeeSchedule();
                         break;
                     case "4":
-                        gymClass_Manager.DeleteGymClass();
+                        gymClass_Manager.DeleteEmployeeSchedule();
                         break;
                     case "5":
                         exit = true;

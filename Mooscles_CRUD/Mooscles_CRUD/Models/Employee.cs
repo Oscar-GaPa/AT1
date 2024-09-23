@@ -11,6 +11,7 @@ namespace Mooscles_Management_System.Models
         public int Employee_ID { get; set; }
         public string Name { get; set; }
         public string Position { get; set; }
-        public int Salary { get; set; } 
+        public int Salary { get; set; }
+        public int GymClass { get; set; }
     }
 }
