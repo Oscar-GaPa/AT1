@@ -16,7 +16,7 @@ namespace Mooscles_Management_System
             PL_EmployeeSchedule pL_EmployeeSchedule = new PL_EmployeeSchedule();
 
 
-            Console.WriteLine("Please enter 1 for Employee, 2 for Customer, and 3 for Class:");
+            Console.WriteLine("Please enter 1 for Employee, 2 for Customer, and 3 for Employee Schedule:");
 
             bool exit = false;
                 while (!exit)
