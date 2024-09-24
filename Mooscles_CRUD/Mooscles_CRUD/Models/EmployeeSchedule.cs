@@ -8,9 +8,13 @@ namespace Mooscles_Management_System.Models
 {
     internal class EmployeeSchedule
     {
-        public int Employee_Schedule { get; set; }
+        public int Schedule_ID { get; set; }
            
-        public int Employee_ID { get; set; }    
+        public int Employee_ID { get; set; } 
+        
+        public string DayOfWeek { get; set; } 
+        
+        public string ShiftType { get; set; }    
      
     }
 }
