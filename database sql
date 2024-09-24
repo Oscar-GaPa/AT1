@@ -17,11 +17,16 @@ CREATE TABLE [dbo].[Customer] (
 );
 
 CREATE TABLE [dbo].[EmployeeSchedule] (
-    [Employee_Schedule] INT NOT NULL,
-    [Employee_ID]       INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([Employee_Schedule], [Employee_ID]),
+    [Schedule_ID] INT           IDENTITY (1, 1) NOT NULL,
+    [Employee_ID] INT           NOT NULL,
+    [DayOfWeek]   NVARCHAR (20) NOT NULL,
+    [ShiftType]   NVARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Schedule_ID] ASC),
+    CONSTRAINT [UQ_EmployeeSchedule] UNIQUE NONCLUSTERED ([DayOfWeek] ASC, [ShiftType] ASC, [Employee_ID] ASC),
     CONSTRAINT [FK_Employee_ID] FOREIGN KEY ([Employee_ID]) REFERENCES [dbo].[Employee] ([Employee_ID])
 );
+
+
 
 
 
