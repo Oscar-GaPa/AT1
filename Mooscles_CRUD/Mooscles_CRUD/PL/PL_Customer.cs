@@ -9,7 +9,7 @@ namespace Mooscles_Management_System.PL
 {
     internal class PL_Customer
     {
-        static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MoosclesDB;Integrated Security=True;";
+        static string connectionString = @"Data Source=(localdb)\ProjectModels;Initial Catalog=""MyDB_new "";Integrated Security=True;";
         static Customer_Manager customerManager = new Customer_Manager(connectionString);
         
         public void Run()

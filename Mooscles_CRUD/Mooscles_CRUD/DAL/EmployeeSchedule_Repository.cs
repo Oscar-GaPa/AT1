@@ -229,7 +229,7 @@ namespace Mooscles_Management_System.DAL
                     Console.WriteLine("Invalid shift type. Please enter either 'Full-time', 'Part-time Morning', 'Part-time Afternoon', or 'Day Off'.");
                 }
             }
-           
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -290,7 +290,7 @@ namespace Mooscles_Management_System.DAL
             {
                 return; // If ID doesn't exist, exit the method
             }
-        
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();

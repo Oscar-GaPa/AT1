@@ -44,3 +44,26 @@ D:\Mooscles CRUD\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\refint\Mooscles_Ma
 D:\Mooscles CRUD\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.pdb
 D:\Mooscles CRUD\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.genruntimeconfig.cache
 D:\Mooscles CRUD\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\ref\Mooscles_Management_System.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\Mooscles_Management_System.exe
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\Mooscles_Management_System.deps.json
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\Mooscles_Management_System.runtimeconfig.json
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\Mooscles_Management_System.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\Mooscles_Management_System.pdb
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.csproj.AssemblyReference.cache
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.AssemblyInfoInputs.cache
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.AssemblyInfo.cs
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.sourcelink.json
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles.8CC454C2.Up2Date
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\refint\Mooscles_Management_System.dll
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.pdb
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\Mooscles_Management_System.genruntimeconfig.cache
+C:\Users\akmal\source\AT1\Mooscles_CRUD\Mooscles_CRUD\obj\Debug\net6.0\ref\Mooscles_Management_System.dll

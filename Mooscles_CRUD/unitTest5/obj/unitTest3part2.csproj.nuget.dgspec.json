@@ -1,0 +1,544 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\unitTest3part2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+        "projectName": "Mooscles_Management_System",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj",
+        "projectName": "unitTest2",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj",
+        "projectName": "unitTest3",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\unitTest3part.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\unitTest3part.csproj",
+        "projectName": "unitTest3part",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\unitTest3part.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\unitTest3part2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\unitTest3part2.csproj",
+        "projectName": "unitTest3part2",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\unitTest3part2.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\unitTest2.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\unitTest3.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\unitTest3part.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\unitTest3part.csproj"
+              },
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj",
+        "projectName": "unitTest1",
+        "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\unitTest1.csproj",
+        "packagesPath": "C:\\Users\\akmal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akmal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj": {
+                "projectPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Mooscles_Management_System.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

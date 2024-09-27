@@ -1,26 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38AA1D77-3DD7-42DE-BA3D-57F2B1E94027}|..\\unitTest\\unitTest1.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\unittest\\customercrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\employeeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\employeeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\mooscles_crud\\bll\\employeeschedule_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\employeeschedule_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7E3AF3C-43B8-4887-A162-07AFEF419FBD}|..\\unitTest2\\unitTest2.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\unittest2\\employeecrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/MyDB_new_/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5879790-D5EB-4D85-9F65-3E161F5201DF}|..\\unitTest4\\unitTest3part.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\unittest4\\employe_scheduleupdatetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B32A923-C867-4377-9185-D7D6837DD024}|..\\unitTest5\\unitTest3part2.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\unittest5\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\mooscles_crud\\dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B27BF-6B94-42D9-99FB-955AE9F1F388}|..\\unitTest3\\unitTest3.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\unittest3\\employee_schedulecrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\akmal\\source\\at1\\mooscles_crud\\mooscles_crud\\bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +44,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeSchedule_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
-              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwIoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:26:35.232Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeSchedule.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
-              "RelativeToolTip": "Models\\EmployeeSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\unitTest5\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest5\\UnitTest1.cs",
+              "RelativeToolTip": "..\\unitTest5\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:37:44.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\Customer_Repository.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
-              "RelativeToolTip": "DAL\\Customer_Repository.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwKgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:04:41.708Z",
+              "WhenOpened": "2024-09-24T21:15:03.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAhAAAAAAAAAA==",
+              "Title": "Employe_ScheduleUpdateTest.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\Employe_ScheduleUpdateTest.cs",
+              "RelativeDocumentMoniker": "..\\unitTest4\\Employe_ScheduleUpdateTest.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest4\\Employe_ScheduleUpdateTest.cs",
+              "RelativeToolTip": "..\\unitTest4\\Employe_ScheduleUpdateTest.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:15:29.139Z",
+              "WhenOpened": "2024-09-24T21:02:08.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeSchedule_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAuwPkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:34:47.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeSchedule_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\EmployeeSchedule_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\EmployeeSchedule_Manager.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\EmployeeSchedule_Manager.cs",
+              "RelativeToolTip": "BLL\\EmployeeSchedule_Manager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:43:16.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee_ScheduleCRUDtest.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\Employee_ScheduleCRUDtest.cs",
+              "RelativeDocumentMoniker": "..\\unitTest3\\Employee_ScheduleCRUDtest.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest3\\Employee_ScheduleCRUDtest.cs",
+              "RelativeToolTip": "..\\unitTest3\\Employee_ScheduleCRUDtest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T19:34:16.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Employee_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\Employee_Repository.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
-              "RelativeToolTip": "DAL\\Employee_Repository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFEAAAAMAAAAAAAAAA==",
+              "Title": "EmployeeCRUDtest.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\EmployeeCRUDtest.cs",
+              "RelativeDocumentMoniker": "..\\unitTest2\\EmployeeCRUDtest.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest2\\EmployeeCRUDtest.cs",
+              "RelativeToolTip": "..\\unitTest2\\EmployeeCRUDtest.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:22:59.161Z",
+              "WhenOpened": "2024-09-24T19:29:17.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Customer [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/MyDB_new_/True/SqlTable/dbo.Customer.sql",
+              "ToolTip": "dbo.Customer [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-24T19:10:16.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerCRUDtest.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\CustomerCRUDtest.cs",
+              "RelativeDocumentMoniker": "..\\unitTest\\CustomerCRUDtest.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\unitTest\\CustomerCRUDtest.cs",
+              "RelativeToolTip": "..\\unitTest\\CustomerCRUDtest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:11:39.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\Customer_Manager.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeToolTip": "BLL\\Customer_Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:13:55.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Customer_Repository.cs",
+              "ToolTip": "C:\\Users\\akmal\\source\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
+              "RelativeToolTip": "DAL\\Customer_Repository.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAswMcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:04:41.708Z",
               "EditorCaption": ""
             }
           ]
