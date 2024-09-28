@@ -18,11 +18,14 @@ namespace Mooscles_Management_System.DAL
         {
             this.connectionString = connectionString;
         }
+        // CRUD for Employee class.
 
+        // Create Employee() Method.
         public void CreateEmployee()
         {
             try
             {
+                // Prompt to input Employee details
                 Console.WriteLine("Enter employee details:");
 
                 // Name validation
@@ -64,6 +67,7 @@ namespace Mooscles_Management_System.DAL
                     }
                 }
 
+                // The input provided by the user is inserted into the database.
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -85,12 +89,14 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Read Employee() Method.
         public void ReadEmployees()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
+                // The data from the table is retrieved with an SQL query.
                 string selectQuery = "SELECT Employee_ID, Name, Position, Salary FROM Employee";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
@@ -106,11 +112,13 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Update Employee() Method.
         public void UpdateEmployee()
         {
             Console.Write("Enter the ID of the employee to update: ");
 
-            // ID validation and existence check
+            // Employee ID validation and existence check.
+            // The user enters the ID of the employee whose details they want to update.
             int employee_id;
             bool idExists = false;
 
@@ -196,6 +204,7 @@ namespace Mooscles_Management_System.DAL
                 {
                     connection.Open();
 
+                    // The database is updated with the input provided by the user.
                     string updateQuery = "UPDATE Employee SET Name = @Name, Position = @Position, Salary = @Salary WHERE Employee_ID = @Employee_ID";
                     using (SqlCommand command = new SqlCommand(updateQuery, connection))
                     {
@@ -217,9 +226,13 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Delete Employee() Method.
         public void DeleteEmployee()
         {
             Console.Write("Enter the ID of the employee to delete: ");
+
+            // The user input is converted to int.
+            // If the Employee ID isn't found, the user is notified and allowed to choose a new option.
             int employee_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))

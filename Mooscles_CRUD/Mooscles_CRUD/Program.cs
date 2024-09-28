@@ -15,13 +15,14 @@ namespace Mooscles_Management_System
             PL_Customer pL_Customer = new PL_Customer();
             PL_EmployeeSchedule pL_EmployeeSchedule = new PL_EmployeeSchedule();
 
-
+            // User prompt to select an option between the different databases to operate on, or to exit the menu.
             Console.WriteLine("Please enter 1 for Employee, 2 for Customer, and 3 for Employee Schedule:");
 
             bool exit = false;
                 while (!exit)
                 {
-                    Console.WriteLine("Choose an option:");
+                // Contents of While loop for menu options
+                Console.WriteLine("Choose an option:");
                     Console.WriteLine("1. Employee");
                     Console.WriteLine("2. Customer");
                     Console.WriteLine("3. Employee Schedule");

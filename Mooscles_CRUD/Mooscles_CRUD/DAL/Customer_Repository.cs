@@ -17,7 +17,9 @@ namespace Mooscles_Management_System.DAL
         {
             this.connectionString = connectionString;
         }
+        // CRUD for Customer class.
 
+        // Create Customer() Method.
         public void CreateCustomer()
         {
             try
@@ -48,6 +50,7 @@ namespace Mooscles_Management_System.DAL
                     }
                 } while (string.IsNullOrWhiteSpace(address) || !Regex.IsMatch(address, "^[a-zA-Z0-9\\s,\\-\\.]+$"));
 
+                // Phone number validation
                 int phone_no;
                 while (true)
                 {
@@ -123,6 +126,7 @@ namespace Mooscles_Management_System.DAL
                 {
                     connection.Open();
 
+                    // The input provided by the user is inserted into the database.
                     string insertQuery = "INSERT INTO Customer (Customer_Name, Address, Phone_NO, DOB, Starting_Date) VALUES (@Customer_Name, @Address, @Phone_NO, @DOB, @Starting_Date)";
                     using (SqlCommand command = new SqlCommand(insertQuery, connection))
                     {
@@ -144,12 +148,14 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Read Customer() Method.
         public void ReadCustomers()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
+                // The data from the table is retrieved with an SQL query.
                 string selectQuery = "SELECT Customer_ID, Customer_Name, Address, Phone_NO, DOB, Starting_Date FROM Customer";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
@@ -165,11 +171,13 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Update Customer() Method.
         public void UpdateCustomer()
         {
             Console.Write("Enter the ID of the customer to update: ");
 
-            // ID validation and existence check
+            // Customer ID validation and existence check.
+            // The user enters the ID of the customer whose details they want to update.
             int customer_id;
             bool idExists = false;
 
@@ -312,6 +320,7 @@ namespace Mooscles_Management_System.DAL
                 {
                     connection.Open();
 
+                    // The database is updated with the input provided by the user.
                     string updateQuery = "UPDATE Customer SET Customer_Name = @Customer_Name, Address = @Address, Phone_NO = @Phone_NO, DOB = @DOB, Starting_Date = @Starting_Date WHERE Customer_ID = @Customer_ID";
                     using (SqlCommand command = new SqlCommand(updateQuery, connection))
                     {
@@ -336,9 +345,13 @@ namespace Mooscles_Management_System.DAL
 
         }
 
+        // Delete Customer() Method.
         public void DeleteCustomer()
         {
             Console.Write("Enter the ID of the customer to delete: ");
+
+            // The user input is converted to int.
+            // If the Customer ID isn't found, the user is notified and allowed to choose a new option.
             int customer_id = Convert.ToInt32(Console.ReadLine());
 
             using (SqlConnection connection = new SqlConnection(connectionString))

@@ -16,12 +16,16 @@ namespace Mooscles_Management_System.DAL
         {
             this.connectionString = connectionString;
         }
+        // CRUD for EmployeeSchedule class.
 
+        // Create EmployeeSchedule() Method.
         public void CreateEmployeeSchedule()
         {
             try
             {
-                // Employee ID validation and existence check
+                // Employee ID validation and existence check.
+                // This block allows the user to create a schedule for an employee 
+                // by referencing the specific employee via the Employee_ID.
                 Console.Write("Enter employee ID: ");
                 int employee_id;
                 bool idExists = false;
@@ -30,7 +34,7 @@ namespace Mooscles_Management_System.DAL
                 {
                     if (int.TryParse(Console.ReadLine(), out employee_id))
                     {
-                        // Check if the employee ID exists in the database
+                        // Check if the employee ID exists in the database.
                         using (SqlConnection connection = new SqlConnection(connectionString))
                         {
                             connection.Open();
@@ -42,7 +46,7 @@ namespace Mooscles_Management_System.DAL
                                 if (count > 0)
                                 {
                                     idExists = true;
-                                    break; // Employee ID exists, proceed with scheduling
+                                    break; // Employee ID exists, proceed with scheduling.
                                 }
                                 else
                                 {
@@ -59,10 +63,12 @@ namespace Mooscles_Management_System.DAL
 
                 if (!idExists)
                 {
-                    return; // If ID doesn't exist, exit the method
+                    return; // If ID doesn't exist, exit the method.
                 }
 
-                // Day of the week validation
+                // Day of the week input request and validation.
+                // The user is prompted to provide a day of the week.
+
                 string[] validDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
                 string dayOfWeek = "";
                 bool isDayValid = false;
@@ -82,7 +88,8 @@ namespace Mooscles_Management_System.DAL
                     }
                 }
 
-                // Shift type validation
+                // Shift type validation.
+                // The user is prompted to provide a type of shift for the specified day of the week.
                 string[] validShifts = { "Full-time", "Part-time Morning", "Part-time Afternoon", "Day Off" };
                 string shiftType = "";
                 bool isShiftValid = false;
@@ -103,7 +110,7 @@ namespace Mooscles_Management_System.DAL
                 }
 
 
-                // Insert the schedule into the database (the Schedule_ID is automatically generated)
+                // The input provided by the user is inserted into the database.
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -125,12 +132,14 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Read EmployeeSchedule() Method.
         public void ReadEmployeeSchedules()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
 
+                // The data from the table is retrieved with an SQL query.
                 string selectQuery = "SELECT Schedule_ID, Employee_ID, DayOfWeek, ShiftType FROM EmployeeSchedule";
                 using (SqlCommand command = new SqlCommand(selectQuery, connection))
                 {
@@ -146,11 +155,13 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Update EmployeeSchedule() Method.
         public void UpdateEmployeeSchedule()
         {
             Console.WriteLine("Enter Schedule ID to update schedule:");
 
-            // Schedule ID validation and existence check
+            // Schedule ID validation and existence check.
+            // The user enters the ID of the employee whose schedule they want to update.
             int schedule_id;
             bool idExists = false;
 
@@ -158,7 +169,7 @@ namespace Mooscles_Management_System.DAL
             {
                 if (int.TryParse(Console.ReadLine(), out schedule_id))
                 {
-                    // Check if the schedule ID exists in the database
+                    // Checks if the schedule ID exists in the database.
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {
                         connection.Open();
@@ -187,10 +198,11 @@ namespace Mooscles_Management_System.DAL
 
             if (!idExists)
             {
-                return; // If ID doesn't exist, exit the method
+                return; // If ID doesn't exist, exit the method.
             }
 
-            // Day of the week validation
+            // Day of the week input request and validation.
+            // The user is prompted to provide a day of the week.aaaaaaaaaaaa
             string[] validDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
             string dayOfWeek = "";
             bool isDayValid = false;
@@ -210,7 +222,8 @@ namespace Mooscles_Management_System.DAL
                 }
             }
 
-            // Shift type validation
+            // Shift type validation.
+            // The user is prompted to provide a type of shift for the specified day of the week.
             string[] validShifts = { "Full-time", "Part-time Morning", "Part-time Afternoon", "Day Off" };
             string shiftType = "";
             bool isShiftValid = false;
@@ -229,7 +242,8 @@ namespace Mooscles_Management_System.DAL
                     Console.WriteLine("Invalid shift type. Please enter either 'Full-time', 'Part-time Morning', 'Part-time Afternoon', or 'Day Off'.");
                 }
             }
-           
+
+            // The database is updated with the input provided by the user.
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -247,11 +261,13 @@ namespace Mooscles_Management_System.DAL
             }
         }
 
+        // Delete EmployeeSchedule() Method.
         public void DeleteEmployeeSchedule()
         {
             Console.WriteLine("Enter ID of the schedule to be deleted:");
 
-            // Schedule ID validation and existence check
+            // Schedule ID validation and existence check.
+            // The user enters the ID of the employee whose schedule they want to delete.
             int schedule_id;
             bool idExists = false;
 
@@ -295,6 +311,7 @@ namespace Mooscles_Management_System.DAL
             {
                 connection.Open();
 
+                // The record is deleted based on the schedule ID provided by the user.
                 string deleteQuery = "DELETE FROM EmployeeSchedule WHERE Schedule_ID = @Schedule_ID";
                 using (SqlCommand command = new SqlCommand(deleteQuery, connection))
                 {

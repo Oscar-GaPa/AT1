@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.PL
 {
+    // Customer Presentation Layer
     internal class PL_Customer
     {
         static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MoosclesDB;Integrated Security=True;";
@@ -14,9 +15,12 @@ namespace Mooscles_Management_System.PL
         
         public void Run()
         {
+
+            // Menu options for Customer CRUD operation selection
             bool exit = false;
             while (!exit)
             {
+                // Contents of While loop for menu options
                 Console.WriteLine("Choose an option:");
                 Console.WriteLine("1. Create Customer");
                 Console.WriteLine("2. Read Customers");

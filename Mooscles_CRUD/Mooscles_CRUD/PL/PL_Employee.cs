@@ -1,4 +1,4 @@
-using Mooslces_Management_System.BLL;
+using Mooscles_Management_System.BLL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.PL
 {
+    // Employee Presentation Layer
     internal class PL_Employee
     {
         static string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MoosclesDB;Integrated Security=True;";
         static Employee_Manager employee_Manager = new Employee_Manager(connectionString);
-        // Create Run() method, then move from Main() method the CLI to here
+
         public void Run()
         {
+
+            // Menu options for Employee CRUD operation selection
             bool exit = false;
             while (!exit)
             {
+                // Contents of While loop for menu options
                 Console.WriteLine("Choose an option:");
                 Console.WriteLine("1. Create Employee");
                 Console.WriteLine("2. Read Employees");

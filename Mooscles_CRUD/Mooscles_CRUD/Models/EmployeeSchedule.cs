@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.Models
 {
+    // EmployeeSchedule Model with attributes from database
     internal class EmployeeSchedule
     {
         public int Schedule_ID { get; set; }

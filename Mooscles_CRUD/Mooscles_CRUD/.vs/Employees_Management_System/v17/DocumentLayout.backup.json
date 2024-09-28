@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\pl\\pl_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\customer_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\employee_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\employee_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\bll\\employeeschedule_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:bll\\employeeschedule_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\employeeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\employeeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\pl\\pl_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:pl\\pl_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employee_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +39,12 @@
       "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\customer_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:dal\\employeeschedule_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|c:\\users\\oscar\\onedrive\\desktop\\at1\\mooscles_crud\\mooscles_crud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C175A233-0278-40BE-ABAD-A3CAE39D3D8B}|Mooscles_Management_System.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +53,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 202,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +62,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeSchedule_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
-              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAwIoAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Employee_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Employee_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\Employee_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Employee_Manager.cs",
+              "RelativeToolTip": "BLL\\Employee_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T08:26:35.232Z",
+              "WhenOpened": "2024-09-28T07:17:27.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeSchedule.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
-              "RelativeToolTip": "Models\\EmployeeSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Title": "Customer_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\Customer_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\Customer_Manager.cs",
+              "RelativeToolTip": "BLL\\Customer_Manager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T07:37:44.902Z",
+              "WhenOpened": "2024-09-28T07:17:26.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Customer_Repository.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
-              "RelativeDocumentMoniker": "DAL\\Customer_Repository.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
-              "RelativeToolTip": "DAL\\Customer_Repository.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwKgAAAAAAAAAAAAAAA==",
+              "Title": "EmployeeSchedule_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\EmployeeSchedule_Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\EmployeeSchedule_Manager.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\BLL\\EmployeeSchedule_Manager.cs",
+              "RelativeToolTip": "BLL\\EmployeeSchedule_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:04:41.708Z",
+              "WhenOpened": "2024-09-28T07:17:21.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PL_Employee.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Employee.cs",
+              "RelativeDocumentMoniker": "PL\\PL_Employee.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Employee.cs*",
+              "RelativeToolTip": "PL\\PL_Employee.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:13:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PL_Customer.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
+              "RelativeDocumentMoniker": "PL\\PL_Customer.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\PL\\PL_Customer.cs",
+              "RelativeToolTip": "PL\\PL_Customer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:12:35.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAhAAAAAAAAAA==",
+              "Title": "EmployeeSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeSchedule.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\EmployeeSchedule.cs",
+              "RelativeToolTip": "Models\\EmployeeSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:15:29.139Z",
+              "WhenOpened": "2024-09-28T07:11:21.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:11:20.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:11:18.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeSchedule_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\EmployeeSchedule_Repository.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\EmployeeSchedule_Repository.cs",
+              "RelativeToolTip": "DAL\\EmployeeSchedule_Repository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAgBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:11:07.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Employee_Repository.cs",
               "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
               "RelativeDocumentMoniker": "DAL\\Employee_Repository.cs",
               "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Employee_Repository.cs",
               "RelativeToolTip": "DAL\\Employee_Repository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:22:59.161Z",
+              "WhenOpened": "2024-09-27T04:09:17.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer_Repository.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Customer_Repository.cs",
+              "ToolTip": "C:\\Users\\oscar\\OneDrive\\Desktop\\AT1\\Mooscles_CRUD\\Mooscles_CRUD\\DAL\\Customer_Repository.cs",
+              "RelativeToolTip": "DAL\\Customer_Repository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T04:04:07.494Z",
               "EditorCaption": ""
             }
           ]

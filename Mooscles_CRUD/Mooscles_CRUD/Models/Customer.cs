@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mooscles_Management_System.Models
 {
+    // Customer Model with attributes from database
     public class Customer
     {
         public int Customer_ID { get; set; }
